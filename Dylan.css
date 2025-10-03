@@ -367,4 +367,4 @@ h1 {
 .toggle-btn.clicked {
   transform: scale(0.92);
 }
-
+.letter-text { width= 40%}
