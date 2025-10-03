@@ -1,0 +1,370 @@
+h1 {
+    color: rgb(237, 246, 237);
+}
+
+body {
+    background-color: rgb(128, 255, 0);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+h1 {
+    font-family: "Saira", sans-serif;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    /* needed for absolute positioning */
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    /* center the whole columns group */
+    gap: 6rem;
+    /* space between left and right column */
+    position: relative;
+    /* for vertical line positioning */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative; /* make this the reference for absolute children */
+}
+
+/* vertical line between columns */
+.vertical-connector {
+    position: absolute;
+    top: 0;
+    height: 15rem;
+    bottom: 0;
+    left: 50%;
+    /* exactly between the two columns */
+    transform: translateX(-50%);
+    width: 0.3rem;
+    background-color: white;
+    z-index: -1;
+    /* behind everything */
+}
+
+
+.reasons button {
+    justify-self: center;
+    /* keeps buttons centered inside their slots */
+}
+
+.reasons a,
+.reasons a:visited,
+.reasons a:hover,
+.reasons a:active {
+    font-weight: 600;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+
+
+.looks {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 250%;
+    border-radius: 20px;
+}
+
+.looks.clicked {
+    transform: scale(0.92);
+}
+
+.looks-text {
+    display: none;
+    color: white;
+    font-size: 120%;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 20px;
+    width: 20%;
+    height: 25%;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.personality {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 250%;
+    border-radius: 20px;
+}
+
+.personality-text {
+    display: none;
+    color: white;
+    font-size: 100%;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 20px;
+    width: 20%;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.personality.clicked {
+    transform: scale(0.92);
+}
+
+.Ideals.clicked {
+    transform: scale(0.92);
+}
+
+.Ideals-text {
+    display: none;
+    color: white;
+    font-size: 120%;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 20px;
+    width: 20%;
+    height: 23%;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.Ideals {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 250%;
+    border-radius: 20px;
+}
+
+.Time.clicked {
+    transform: scale(0.92);
+}
+
+.Time-text {
+    display: none;
+    color: white;
+    font-size: 120%;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 20px;
+    width: 20%;
+    height: 23%;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.Time {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 250%;
+    border-radius: 20px;
+}
+
+
+
+.Uno {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.Dos {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.Tres {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.Cuatro {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.us {
+    font-size: 300%;
+    color: white;
+}
+
+.Ein {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.Zwei {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.Drei {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.Vier {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20px;
+}
+
+.Tra {
+    font-size: 300%;
+    color: white;
+}
+
+.Letter.clicked {
+    transform: scale(0.92);
+}
+
+.letter-text {
+    display: none;
+    color: white;
+    font-size: 120%;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 20px;
+    width: 25%;
+    height: 55%;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.Letter {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    border-radius: 20px;
+    min-height: 4rem;
+    /* never smaller */
+    height: clamp(4rem, 5vw, 7rem);
+    /* scales with viewport width */
+    max-height: 7rem;
+    /* never bigger */
+    padding: 0 2rem;
+    font-size: clamp(0.8rem, 2vw, 2.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dusetaph,
+.Shop {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* 2 columns */
+    justify-content: center;
+    /* row gap / column gap */
+}
+
+.smallContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* 2 columns */
+    justify-content: center;
+    /* center whole grid */
+}
+
+.looks-text, .Time-text, .personality-text, .Ideals-text, .letter-text {
+    display: none;
+    position: absolute;   /* absolute relative to column */
+    top: 100%;            /* just below the button */
+    left: 50%;            
+    transform: translateX(-50%); 
+    z-index: 100;         
+    width: 20rem;         /* fixed width or use max-width */
+    max-width: 90vw;      /* responsive on small screens */
+    height: auto;         /* let content define height */
+    padding: 1rem;
+    background-color: rgb(50, 150, 50);
+    border: 1vh solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 120%;
+    overflow: auto;       /* scroll if content is really tall */
+    box-sizing: border-box;
+}
+
+.button-wrapper {
+  position: relative; /* popup positioned relative to this wrapper */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 100%;           /* directly below button */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20rem;
+  max-width: 90vw;
+  padding: 1rem;
+  background-color: rgb(50, 150, 50);
+  border: 1vh solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: 120%;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+/* buttons look same as before */
+.toggle-btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 175, 50);
+  border: 0.3vh solid white;
+  font-size: 250%;
+  border-radius: 20px;
+}
+
+.toggle-btn.clicked {
+  transform: scale(0.92);
+}
+
