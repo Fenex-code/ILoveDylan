@@ -1,0 +1,300 @@
+h1 {
+    color: rgb(237, 246, 237);
+}
+
+body {
+    background-color: rgb(128, 255, 0);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 {
+    font-family: "Saira", sans-serif;
+}
+
+.vertical-line {
+    position: fixed;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 45vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.reasons a,
+.reasons a:visited,
+.reasons a:hover,
+.reasons a:active {
+    font-weight: 600;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+
+.looks {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 4vh;
+    margin-left: 65vh;
+    margin-top: 7vh;
+    border-radius: 20%;
+}
+
+.looks.clicked {
+    transform: scale(0.92);
+}
+
+.looks-text {
+    display: none;
+    position: absolute;
+    top: 30vh;
+    left: 55vh;
+    color: white;
+    font-size: 2vh;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 2vh;
+    width: 40vh;
+    height: 25vh;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.personality {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 4vh;
+    margin-left: 65vh;
+    margin-top: 7vh;
+    border-radius: 20%;
+}
+
+.personality-text {
+    display: none;
+    position: absolute;
+    top: 44vh;
+    left: 55vh;
+    color: white;
+    font-size: 2vh;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 2vh;
+    width: 40vh;
+    height: 23vh;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.personality.clicked {
+    transform: scale(0.92);
+}
+
+.Ideals.clicked {
+    transform: scale(0.92);
+}
+
+.Ideals-text {
+    display: none;
+    position: absolute;
+    top: 30vh;
+    left: 100vh;
+    color: white;
+    font-size: 2vh;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 2vh;
+    width: 40vh;
+    height: 23vh;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.Ideals {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 4vh;
+    left: 103vh;
+    top: 22vh;
+    border-radius: 20%;
+    position: absolute;
+}
+
+.Time.clicked {
+    transform: scale(0.92);
+}
+
+.Time-text {
+    display: none;
+    position: absolute;
+    top: 44vh;
+    left: 100vh;
+    color: white;
+    font-size: 2vh;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 2vh;
+    width: 40vh;
+    height: 23vh;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.Time {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 4vh;
+    left: 103vh;
+    top: 34.2vh;
+    border-radius: 20%;
+    position: absolute;
+}
+
+
+
+.Uno {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 70vh;
+    left: 145vh;
+}
+
+.Dos {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 70vh;
+    left: 125vh;
+}
+
+.Tres {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 50vh;
+    left: 145vh;
+}
+
+.Cuatro {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 50vh;
+    left: 125vh;
+}
+
+.us {
+    font-size: 5vh;
+    position: absolute;
+    color: white;
+    top: 38vh;
+    left: 135vh;
+}
+
+.Ein {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 70vh;
+    left: 50vh;
+}
+
+.Zwei {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 70vh;
+    left: 30vh;
+}
+
+.Drei {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+}
+
+.Vier {
+    width: 20vh;
+    height: 20vh;
+    border: 0.3vh solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 50vh;
+    left: 30vh;
+}
+
+.Tra {
+    font-size: 5vh;
+    position: absolute;
+    color: white;
+    top: 38vh;
+    left: 40vh;
+}
+
+.Letter.clicked {
+    transform: scale(0.92);
+}
+
+.letter-text {
+    display: none;
+    position: absolute;
+    top: 0vh;
+    left: 70vh;
+    color: white;
+    font-size: 2vh;
+    border: 1vh solid white;
+    padding: 2vh;
+    border-radius: 2vh;
+    width: 50vh;
+    height: 55vh;
+    background-color: rgb(50, 150, 50);
+    z-index: 10;
+}
+
+.Letter {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 175, 50);
+    border-color: rgb(255, 255, 255);
+    border-width: 0.3vh;
+    font-size: 4vh;
+    left: 74vh;
+    top: 65vh;
+    border-radius: 20%;
+    position: absolute;
+}
