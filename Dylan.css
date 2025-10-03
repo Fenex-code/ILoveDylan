@@ -8,11 +8,11 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 30;
+    margin-top: 1.5%;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 350%;
 }
 
 h1 {
@@ -21,11 +21,11 @@ h1 {
 
 .vertical-line {
     position: fixed;
-    top: 140px;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
-    width: 4px;
-    height: 45vh;
+    width: 0.2%;
+    height: 45%;
     background-color: rgb(255, 255, 255);
     z-index: 1;
 }
@@ -38,7 +38,7 @@ h1 {
     font-family: "Saira", sans-serif;
     color: white;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 100%;
 }
 
 
@@ -48,9 +48,9 @@ h1 {
     background-color: rgb(50, 175, 50);
     border-color: rgb(255, 255, 255);
     border-width: 0.3vh;
-    font-size: 4vh;
-    margin-left: 65vh;
-    margin-top: 7vh;
+    font-size: 250%;
+    margin-left: 33%;
+    margin-top: 3%;
     border-radius: 20%;
 }
 
@@ -61,15 +61,15 @@ h1 {
 .looks-text {
     display: none;
     position: absolute;
-    top: 30vh;
-    left: 55vh;
+    top: 30%;
+    left: 30%;
     color: white;
-    font-size: 2vh;
+    font-size: 120%;
     border: 1vh solid white;
     padding: 2vh;
     border-radius: 2vh;
-    width: 40vh;
-    height: 25vh;
+    width: 20%;
+    height: 25%;
     background-color: rgb(50, 150, 50);
     z-index: 10;
 }
@@ -79,24 +79,24 @@ h1 {
     background-color: rgb(50, 175, 50);
     border-color: rgb(255, 255, 255);
     border-width: 0.3vh;
-    font-size: 4vh;
-    margin-left: 65vh;
-    margin-top: 7vh;
+    font-size: 250%;
+    margin-left: 33%;
+    margin-top: 3%;
     border-radius: 20%;
 }
 
 .personality-text {
     display: none;
     position: absolute;
-    top: 44vh;
-    left: 55vh;
+    top: 40%;
+    left: 30%;
     color: white;
-    font-size: 2vh;
+    font-size: 120%;
     border: 1vh solid white;
     padding: 2vh;
     border-radius: 2vh;
-    width: 40vh;
-    height: 23vh;
+    width: 20%;
+    height: 23%;
     background-color: rgb(50, 150, 50);
     z-index: 10;
 }
@@ -112,15 +112,15 @@ h1 {
 .Ideals-text {
     display: none;
     position: absolute;
-    top: 30vh;
-    left: 100vh;
+    top: 30%;
+    left: 55%;
     color: white;
-    font-size: 2vh;
+    font-size: 120%;
     border: 1vh solid white;
     padding: 2vh;
     border-radius: 2vh;
-    width: 40vh;
-    height: 23vh;
+    width: 20%;
+    height: 23%;
     background-color: rgb(50, 150, 50);
     z-index: 10;
 }
@@ -130,9 +130,9 @@ h1 {
     background-color: rgb(50, 175, 50);
     border-color: rgb(255, 255, 255);
     border-width: 0.3vh;
-    font-size: 4vh;
-    left: 103vh;
-    top: 22vh;
+    font-size: 250%;
+    left: 55%;
+    top: 22%;
     border-radius: 20%;
     position: absolute;
 }
@@ -144,15 +144,15 @@ h1 {
 .Time-text {
     display: none;
     position: absolute;
-    top: 44vh;
-    left: 100vh;
+    top: 40%;
+    left: 55%;
     color: white;
-    font-size: 2vh;
+    font-size: 120%;
     border: 1vh solid white;
     padding: 2vh;
     border-radius: 2vh;
-    width: 40vh;
-    height: 23vh;
+    width: 20%;
+    height: 23%;
     background-color: rgb(50, 150, 50);
     z-index: 10;
 }
@@ -162,9 +162,9 @@ h1 {
     background-color: rgb(50, 175, 50);
     border-color: rgb(255, 255, 255);
     border-width: 0.3vh;
-    font-size: 4vh;
-    left: 103vh;
-    top: 34.2vh;
+    font-size: 250%;
+    left: 55%;
+    top: 33%;
     border-radius: 20%;
     position: absolute;
 }
@@ -172,51 +172,51 @@ h1 {
 
 
 .Uno {
-    width: 20vh;
-    height: 20vh;
+    width: 10%;
+    height: 20%;
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 70vh;
-    left: 145vh;
+    top: 70%;
+    left: 74%;
 }
 
 .Dos {
-    width: 20vh;
-    height: 20vh;
+    width: 10%;
+    height: 20%;
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 70vh;
-    left: 125vh;
+    top: 70%;
+    left: 64%;
 }
 
 .Tres {
-    width: 20vh;
-    height: 20vh;
+    width: 10%;
+    height: 20%;
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 50vh;
-    left: 145vh;
+    top: 50%;
+    left: 74%;
 }
 
 .Cuatro {
-    width: 20vh;
-    height: 20vh;
+    width: 10%;
+    height: 20%;
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 50vh;
-    left: 125vh;
+    top: 50%;
+    left: 64%;
 }
 
 .us {
-    font-size: 5vh;
+    font-size: 300%;
     position: absolute;
     color: white;
-    top: 38vh;
-    left: 135vh;
+    top: 37%;
+    left: 69%;
 }
 
 .Ein {
@@ -225,8 +225,8 @@ h1 {
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 70vh;
-    left: 50vh;
+    top: 50%;
+    left: 25%;
 }
 
 .Zwei {
@@ -235,8 +235,8 @@ h1 {
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 70vh;
-    left: 30vh;
+    top: 50%;
+    left: 15%;
 }
 
 .Drei {
@@ -245,8 +245,8 @@ h1 {
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 50vh;
-    left: 50vh;
+    top: 70%;
+    left: 25%;
 }
 
 .Vier {
@@ -255,16 +255,16 @@ h1 {
     border: 0.3vh solid white;
     border-radius: 20%;
     position: absolute;
-    top: 50vh;
-    left: 30vh;
+    top: 70%;
+    left: 15%;
 }
 
 .Tra {
-    font-size: 5vh;
+    font-size: 300%;
     position: absolute;
     color: white;
-    top: 38vh;
-    left: 40vh;
+    top: 37%;
+    left: 20%;
 }
 
 .Letter.clicked {
@@ -274,15 +274,15 @@ h1 {
 .letter-text {
     display: none;
     position: absolute;
-    top: 0vh;
-    left: 70vh;
+    top: 0%;
+    left: 35%;
     color: white;
-    font-size: 2vh;
+    font-size: 120%;
     border: 1vh solid white;
     padding: 2vh;
     border-radius: 2vh;
-    width: 50vh;
-    height: 55vh;
+    width: 25%;
+    height: 55%;
     background-color: rgb(50, 150, 50);
     z-index: 10;
 }
@@ -292,9 +292,9 @@ h1 {
     background-color: rgb(50, 175, 50);
     border-color: rgb(255, 255, 255);
     border-width: 0.3vh;
-    font-size: 4vh;
-    left: 74vh;
-    top: 65vh;
+    font-size: 250%;
+    left: 36%;
+    top: 65%;
     border-radius: 20%;
     position: absolute;
 }
